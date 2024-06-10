@@ -31,7 +31,7 @@ public class actionDemo {
 		//perform is used to execute it
 		a.moveToElement(we).contextClick().build().perform();
 		
-		//move to txtbox, then click on it, then enter bags in capitall letters and then select the entered text using doubleclick
+		//move to txtbox, then click on it, then enter bags in capital letters and then select the entered text using doubleclick
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("bags").doubleClick().build().perform();
 		
 		

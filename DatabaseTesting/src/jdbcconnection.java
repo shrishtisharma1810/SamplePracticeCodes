@@ -24,14 +24,14 @@ public class jdbcconnection {
 		ResultSet rs=s.executeQuery("select *from Employeeinfo where name=\"ram\";");
 		
 		//rs points to row header by default
-		//rs.next will point to actual row content
+		//rs.next will point to actual row content  
 		while(rs.next())
 		{
 		//display location age and id of that row
 		//System.out.println(rs.getString("location"));
 		//System.out.println(rs.getInt("age"));
 		//System.out.println(rs.getInt("id"));
-			//System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://login.salesforce.com/");
 			driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys(rs.getString("location"));

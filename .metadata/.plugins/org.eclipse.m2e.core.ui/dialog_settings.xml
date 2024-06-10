@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="test"/>
+			<item value="DatabaseTesting"/>
 			<item value="CrossBrowserTestingCloud"/>
 			<item value="SeleniumFeaturesLatest"/>
 			<item value="NehaLive"/>
@@ -9,6 +11,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="test"/>
+			<item value="DatabaseTesting"/>
 			<item value="CrossBrowserTestingCloud"/>
 			<item value="SeleniumFeaturesLatest"/>
 			<item value="Selenium"/>
